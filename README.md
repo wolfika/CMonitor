@@ -1,6 +1,6 @@
 # CMonitor
 
-Monitors LTC workers connected to the [https://www.coinotron.com](Coinotron) API with a given API key.
+Monitors LTC workers connected to the [Coinotron](https://www.coinotron.com) API with a given API key.
 
 ### Usage
 1. Run `cmonitor.rb` script

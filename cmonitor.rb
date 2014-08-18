@@ -27,7 +27,7 @@ require 'open-uri'
 
 		if api['username'] != 'null'
 			api['workers'].each do |k,w|
-				puts "\t#{Time.now.strftime('%Y.%m.%d. %H:%M:%S')}\t#{w['username']}\tHashrate: #{w['hashrate']}"
+				puts "\t#{Time.now.strftime('%Y.%m.%d. %H:%M:%S')}\t#{w['username']}\tHashrate: #{w['hashrate']} kH/s"
 			end
 		end
 
